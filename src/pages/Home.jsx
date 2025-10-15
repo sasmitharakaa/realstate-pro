@@ -83,10 +83,10 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <div className={`inline-flex items-center gap-2 bg-${PRIMARY_COLOR}/10 border border-${PRIMARY_COLOR}/20 rounded-full px-4 py-2 mb-6`}>
+              {/* <div className={`inline-flex items-center gap-2 bg-${PRIMARY_COLOR}/10 border border-${PRIMARY_COLOR}/20 rounded-full px-4 py-2 mb-6`}>
                 <TrendingUp className={`w-4 h-4 text-${PRIMARY_COLOR}`} />
                 <span className={`text-sm font-medium text-${PRIMARY_COLOR}`}>Leading the market with 25+ years experience</span>
-              </div>
+              </div> */}
               
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white leading-[1.1] tracking-tight">
                 Your Next
@@ -167,11 +167,11 @@ const HeroSection = () => {
           >
             <div className="relative">
               {/* Placeholder instead of the Hero Image */}
-              <div
+              {/* <div
                 className="rounded-3xl w-full h-[600px] object-cover shadow-2xl bg-slate-800 flex items-center justify-center text-gray-500 font-bold"
               >
                 [Image Placeholder]
-              </div>
+              </div> */}
               
               {/* Floating cards */}
               <FloatingCard 
@@ -411,7 +411,7 @@ const PropertyGallery = () => {
                 <div
                   className="w-full h-64 bg-slate-700/50 flex items-center justify-center text-gray-500 font-bold group-hover:scale-110 transition-transform duration-500"
                 >
-                  [Property Image]
+                
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60" />
               </div>
@@ -463,11 +463,11 @@ const AboutSection = () => {
             {/* Image Glow Color Updated */}
             <div className={`absolute -inset-4 bg-gradient-to-r from-${PRIMARY_COLOR} to-${SECONDARY_COLOR} rounded-3xl blur-2xl opacity-20`} />
             {/* Image Placeholder */}
-            <div
+            {/* <div
               className="relative rounded-3xl shadow-2xl bg-slate-800 h-96 flex items-center justify-center text-gray-500 font-bold"
             >
               [Team Photo Placeholder]
-            </div>
+            </div> */}
           </motion.div>
 
           <div className="space-y-8">
